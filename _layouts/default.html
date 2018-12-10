@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container {% if page.class %}{{ page.class }}{% endif %}">
+    <div id="main" role="main" class="{% if page.class %}{{ page.class }}{% endif %}">
       {{ content }}
     </div>
 
