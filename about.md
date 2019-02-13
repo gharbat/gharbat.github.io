@@ -54,4 +54,8 @@ CSRF , XSS , SQLI وثغرات متقدمة أخرى
 
 > Electron Js ,Javascript , Node js ,MySQL , Socket.io
 
+___
 
+حاليًا أعمل كمطور تطبيقات ويب بدوام جزئي في PEAKMENA  وهي منصة تعليمية تقدم محتوى تعليمي  متخصص فائق الجودة
+يمكنك مراسلتي عبر  بريدي الإلكتروني 
+arbioun@gmail.com
