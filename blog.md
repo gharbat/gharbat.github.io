@@ -3,7 +3,7 @@ layout: page
 title: المدونة
 permalink: /blog
 ---
-<div class="posts">	مرحبًا ، أنا محمد غرابات ، وهذا موقعي الشخصي
+<div class="posts">	
   {% for post in site.posts %}	
     <article class="post">	
       <h3><a  style="color:black;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>	
