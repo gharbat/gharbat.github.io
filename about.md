@@ -15,7 +15,7 @@ permalink: /works
 CSRF , XSS , SQLI وثغرات متقدمة أخرى
 الميزة الكبرى للبرمجية هي الأتمته الكاملة في توزيع مفاتيح التشفير وفي وإستلامها وترتيب المتسابقين حسب الحلول .
 قمت ببناءه في البداية بإستخدام PHP بدون أطر عمل ثم أعدت بناء بـ إستخدام Laravel
-![alt text](https://i.suar.me/eeva3/m "شعار المنصة ")
+![alt text](https://gharbat.github.io/pinlab.png"شعار المنصة ")
 > PHP , Laravel , Javascript , SASS  , MySQL , REST API , HTML/CSS ,Bootstrap 4
 
 
