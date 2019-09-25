@@ -1,67 +1,82 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="ar">
+<head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     <meta name="theme-color" content="#000">
     {% include meta.html %}
 
     <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <style>
-      body{
-        text-align:right;
-        direction: rtl;
-      }
+        body{
+            text-align:right;
+            direction: rtl;
+        }
     </style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <script src="{{ '/javascripts/fontfaceobserver.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/javascripts/blog.js' | prepend: site.baseurl }}"></script>
 
-    <!-- Created with Arabic Jekyll - http://github.com/a3ammar/arabic-jekyll -->
-  </head>
+</head>
 
-  <body lang="ar">
-    <div class="wrapper-masthead">
-      <div class="container">
+<body lang="ar">
+<div class="wrapper-masthead">
+    <div class="container">
         <header class="masthead clearfix">
-          {% if site.avatar %}
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          {% endif %}
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/blog.html">المدونة</a>
-            <a href="{{ site.baseurl }}/works">الأعمال</a>
-            <a href="{{ site.baseurl }}/cv.pdf">السيرة الذاتية</a>
+            <div class="row">
+                <div class="col-lg-2"></div>
 
-          </nav>
+                <div class="col-lg-8">
+                    {% if site.avatar %}
+                    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+                    {% endif %}
+                    <div class="row mt-4">
+                       <div class="col-lg-12">
+                           <nav>
+                               <a href="{{ site.baseurl }}/blog.html">المدونة</a>
+                               <a href="{{ site.baseurl }}/works">الأعمال</a>
+                               <a href="{{ site.baseurl }}/cv.pdf">السيرة الذاتية</a>
+                           </nav>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+            </div>
+
+
+            <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+            </div>
+
+
+
         </header>
-      </div>
     </div>
+</div>
 
-    <div id="main" role="main" class=" container{% if page.class %}{{ page.class }}{% endif %}">
-      {{ content }}
-    </div>
+<div id="main" role="main" class=" container{% if page.class %}{{ page.class }}{% endif %}">
+    {{ content }}
+</div>
 
-    <div class="wrapper-footer">
-      <div class="container">
+<div class="wrapper-footer">
+    <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+            {% include svg-icons.html %}
         </footer>
-      </div>
     </div>
+</div>
 
-    {% include analytics.html %}
-  </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js">
-    
-  </script>
+{% include analytics.html %}
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js">
+
+</script>
 </html>
