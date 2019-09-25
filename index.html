@@ -2,24 +2,10 @@
 layout: default
 ---
 
-<div class="row">
-        <div class="col-lg-4 profile-image">
-            <img src="https://gharbat.github.io/0.jpg" alt="this is my cool alt for my cool picture" style=" border-radius: 10px;">
-        </div>
-        <div class="col-lg-8 profile-bio  text-center">
-            <h2>مرحبًا، أنا محمد غرابات</h2>
-                <h4>هذه مدونتي الشخصية ، يمكنك القيام بالتالي :</h4>
-                <div class="text-right">
-                      
-                    <a href="/cv.pdf" >قراءة السيرة الذاتية</a>
-<br>
-                    <a href="/works" >آخر المشاريع التي أنجزتها</a>
-<br>
-
-                    <a href="/blog.html" >التدوينات المطوّلة التي كتبتها</a>
-                        
-               </div>
-      </div>
+<div class="posts">	
+  {% for post in site.posts %}	
+    <article class="post">	
+      <h3><a  style="color:black;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>	
+    </article>	
+  {% endfor %}	
 </div>
-
-
