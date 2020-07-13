@@ -36,88 +36,177 @@ layout: default
 
         }
     </style>
-    <div>
-        <div class="project">
-            <div class="icon" style="margin-left: 1rem">
-                <img style="border-radius: 15px" width="75" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHNJVPtDWLBIA/company-logo_100_100/0?e=1602720000&v=beta&t=KyY2kCq9tmh0e5gDOgHpNjKs0YQxHhjcgCoGkzScLXw" alt="">
-            </div>
-            <div class="text">
-                <h3>مخيم WebGuru الصيفي</h3>
-                مخيم صيفي مكثف لمدة اربعة شهور يتم من خلال تدريب ١٥ طالب على برمجة وبناء مواقع إلكترونية من الصفر وحتى مراحل متقدمة
-            </div>
-        </div>
-        <div class="project" >
-            <div class="icon ml">
-                <img class="img-icon b-1" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEX4vgtQQGcAA/company-logo_100_100/0?e=1602720000&v=beta&t=S10cK2VhVBi94j1dvJDlCeFf_X6k653cusFqXLAtxQM" alt="">
-            </div>
-            <div class="text">
-                <h3>منصة الإختراق الآخلاقي Penslab</h3>
-                منصة تسمح لك بتعلم اهم اساليب حماية وإختراق تطبيقات ومواقع الويب من خلال التطبيق العملي المباشر والإرشاد الآلي بإستخدام تقنيات الذكاء الإصطناعي
-            </div>
-        </div>
-        <div class="project mt" >
-            <div class="icon gred">
-                <h1 style="color: white; font-weight: bold">d</h1>
-            </div>
-            <div class="text">
-                <h3>الإحساس العميق Deep Feel</h3>
-                بإستخدام الذكاء الإصطناعي يمكنك معرفة الآحاسيس والمشاعر من الأصوات المختلفة وخلال ثواني معدودة٫ شاهد مثال من هنا
-            </div>
-        </div>
-    </div>
+             <style>
+                img{
+                    margin: 0;
+                    max-width: 75px!important;
+                }
 
-    <div>
-        <div class="project mt" >
-            <div class="icon ml" >
-                <img class="b-1 img-icon" src="https://media-exp1.licdn.com/dms/image/C4E0BAQEocHPKJBxJEg/company-logo_200_200/0?e=1602720000&v=beta&t=rz_mA-LV-lSyKYjsgpc30H0H8IsSKwUKll3Q_XubSc0" alt="">
-            </div>
-            <div class="text">
-                <h3>Baaz</h3>
-                باز هي الجيل الجديد من منصات التواصل الإجتماعي العربية٫ في باز نعمل على بناد منصة عربية وتفهم العربية بإستخدام أفضل تقنيات التحليل والذكاء الإصطناعي
-            </div>
-        </div>
+                .mt{
+                    margin-top: 1rem!important;
+                }
 
-        <div class="project mt">
-            <div class="icon ml">
-                <img class="img-icon b-1" src="https://media-exp1.licdn.com/dms/image/C4D0BAQH5h5S742kN1Q/company-logo_200_200/0?e=1602720000&v=beta&t=J28CEKKJMK4nzOzfV2ZoJZNDmYcnIeuWpBRr1qFYBkI" alt="">
-            </div>
-            <div class="text">
-                <h3>Opensooq</h3>
-                أكبر منصة إعلانات مبوبة في العالم العربي٫ عشرات الملايين من المستخدمين يستخدمون أوبن سوق لبيع ما لايحتاجون٫ نقوم في السوق المفتوح بحل مشاكل معقدة بأسرع طريقة !
-            </div>
-        </div>
-        <div class="project mt">
-            <div class="icon ml" >
-                <img class="b-1 img-icon"  width="75" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/48169466_2060881100637151_8563496890744700928_n.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=DCTE1DNCWdsAX9eDLZ5&_nc_ht=scontent-amt2-1.xx&oh=8ecbe56124fa997987bdc95bef8fc02f&oe=5F33D182" alt="">
-            </div>
-            <div class="text">
-                <h3>Peakmena</h3>
-                المنصة العربية الناشئة التي تقدم مساقات عربية عالية الجودة يقدمها أفضل من في مجالهم٫ الاف الطلاب يتعلمون بشكل متواصل عبر منصة Peak
-            </div>
-        </div>
-    </div>
-    
-    <div>
-        <div class="project mt">
-            <div class="icon ml">
-                <img class="b-1 img-icon"  src="https://static.wixstatic.com/media/e7e2e3_e431e9f3bb0240d7815612b5838e28e0~mv2.jpg/v1/fill/w_1200,h_962,al_c,q_90/e7e2e3_e431e9f3bb0240d7815612b5838e28e0~mv2.webp" alt="">
-            </div>
-            <div class="text">
-                <h3>الجامعة الأردنية</h3>
-                بكالوريس في علم الحاسوب
-            </div>
-        </div>
+                .ml{
+                    margin-left: 1rem!important;
+                }
+                .project{
+                    display: flex!important; flex-direction: row!important; align-items: center!important;
+                }
+                .img-icon{
+                    width: 75px!important;
+                }
+                .b-1{
+                    border-radius: 15px!important; border: 1px solid gray!important;
+                }
+                .b-n{
+                    border-radius: 15px!important;
+                }
+                .gred{
+                    margin-left: 1rem; min-width: 75px; min-height: 75px; display: flex; flex-direction: column;align-items: center;  justify-content: center; border-radius: 15px; background: #f85032;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    color: white;
+                    max-height: 75px;
 
-        <div class="project mt" >
-            <div class="icon ml">
-                <img class="b-n img-icon"  src="https://www.dcu.ie/sites/default/files/marketing/images/dcu_logo_stacked_yellow_slate.png" alt="">
+                }
+            </style>
+
+            <div>
+                <h2>مشاريعي النشطة:</h2>
+                <p>هذه قائمة بالمشاريع التي قمت بتطويرها و إنشائها٫ بالطبع لاحاجة لذكر ان ضعف هذا العدد من المشاريع فشل وقمت باغلاقه</p>
+                <div class="project">
+                    <div class="icon" style="margin-left: 1rem">
+                        <a href="https://jowebguru.com">
+                            <img style="border-radius: 15px" width="75" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHNJVPtDWLBIA/company-logo_100_100/0?e=1602720000&v=beta&t=KyY2kCq9tmh0e5gDOgHpNjKs0YQxHhjcgCoGkzScLXw" alt="">
+                        </a>
+                    </div>
+                    <div class="text">
+                        <h4>مخيم WebGuru الصيفي</h4>
+                        مخيم صيفي مكثف لمدة اربعة شهور يتم من خلال تدريب ١٥ طالب على برمجة وبناء مواقع إلكترونية من الصفر وحتى مراحل متقدمة
+                    </div>
+                </div>
+                <div class="project mt" >
+                    <div class="icon ml">
+                        <a href="https://penslab.com">
+                            <img class="img-icon b-1" src="https://media-exp1.licdn.com/dms/image/C4D0BAQEX4vgtQQGcAA/company-logo_100_100/0?e=1602720000&v=beta&t=S10cK2VhVBi94j1dvJDlCeFf_X6k653cusFqXLAtxQM" alt="">
+                        </a>
+                    </div>
+                    <div class="text">
+                        <h4>منصة الإختراق الآخلاقي Penslab</h4>
+                        منصة تسمح لك بتعلم اهم اساليب حماية وإختراق تطبيقات ومواقع الويب من خلال التطبيق العملي المباشر والإرشاد الآلي بإستخدام تقنيات الذكاء الإصطناعي
+                    </div>
+                </div>
+                <div class="project mt" >
+                    <div class="icon gred">
+                        <a href="https://deepfeel.tech">
+                            <h1 style="color: white; font-weight: bold">d</h1>
+                        </a>
+                    </div>
+                    <div class="text">
+                        <h4>الإحساس العميق Deep Feel</h4>
+                        بإستخدام الذكاء الإصطناعي يمكنك معرفة الآحاسيس والمشاعر من الأصوات المختلفة وخلال ثواني معدودة٫
+                        <a href="https://youtu.be/4oLyP195Hv8">شاهد مثال من هنا</a>
+                    </div>
+                </div>
             </div>
-            <div class="text">
-                <h3>جامعة مدينة دبلن DCU - Ireland</h3>
-                تحقيقات الجرائم الإلكترونية
+
+            <div style="margin-top: 4rem">
+                <h2 >شركات عملت بها:</h2>
+                <p>هذه قائمة بالشركات التي عملت بها٫ الإسم الوظيفي في جميع هذه الشركات هو مهندس برمجيات</p>
+
+                <div class="project mt" >
+                    <div class="icon ml" >
+                        <img class="b-1 img-icon" src="https://media-exp1.licdn.com/dms/image/C4E0BAQEocHPKJBxJEg/company-logo_200_200/0?e=1602720000&v=beta&t=rz_mA-LV-lSyKYjsgpc30H0H8IsSKwUKll3Q_XubSc0" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Baaz</h4>
+                        باز هي الجيل الجديد من منصات التواصل الإجتماعي العربية٫ في باز نعمل على بناد منصة عربية وتفهم العربية بإستخدام أفضل تقنيات التحليل والذكاء الإصطناعي
+                    </div>
+                </div>
+
+                <div class="project mt">
+                    <div class="icon ml">
+                        <img class="img-icon b-1" src="https://media-exp1.licdn.com/dms/image/C4D0BAQH5h5S742kN1Q/company-logo_200_200/0?e=1602720000&v=beta&t=J28CEKKJMK4nzOzfV2ZoJZNDmYcnIeuWpBRr1qFYBkI" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Opensooq</h4>
+                        أكبر منصة إعلانات مبوبة في العالم العربي٫ عشرات الملايين من المستخدمين يستخدمون أوبن سوق لبيع ما لايحتاجون٫ نقوم في السوق المفتوح بحل مشاكل معقدة بأسرع طريقة !
+                    </div>
+                </div>
+                <div class="project mt">
+                    <div class="icon ml" >
+                        <img class="b-1 img-icon"  width="75" src="https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/48169466_2060881100637151_8563496890744700928_n.jpg?_nc_cat=101&_nc_sid=85a577&_nc_ohc=DCTE1DNCWdsAX9eDLZ5&_nc_ht=scontent-amt2-1.xx&oh=8ecbe56124fa997987bdc95bef8fc02f&oe=5F33D182" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Peakmena</h4>
+                        المنصة العربية الناشئة التي تقدم مساقات عربية عالية الجودة يقدمها أفضل من في مجالهم٫ الاف الطلاب يتعلمون بشكل متواصل عبر منصة Peak
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+
+            <div style="margin-top: 4rem">
+                <h2>التعليم :</h2>
+                <p>هذه قائمة بالجامعات التي درست بها٫ شخصيًا أنا لا أفضل هذا النوع من التعليم</p>
+
+                <div class="project mt">
+                    <div class="icon ml">
+                        <img class="b-1 img-icon"  src="https://static.wixstatic.com/media/e7e2e3_e431e9f3bb0240d7815612b5838e28e0~mv2.jpg/v1/fill/w_1200,h_962,al_c,q_90/e7e2e3_e431e9f3bb0240d7815612b5838e28e0~mv2.webp" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>الجامعة الأردنية</h4>
+                        بكالوريس في علم الحاسوب - جيد جدًا
+                    </div>
+                </div>
+
+                <div class="project mt" >
+                    <div class="icon ml">
+                        <img class="b-n img-icon"  src="https://www.dcu.ie/sites/default/files/marketing/images/dcu_logo_stacked_yellow_slate.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>جامعة مدينة دبلن DCU - Ireland</h4>
+                        تحقيقات الجرائم الإلكترونية
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem">
+                <h2>المنشورات العلمية :</h2>
+                <p>هذه قائمة بالاوراق البحثية التي تم نشرها في مؤتمرات علمية/ مجلات علمية محكمة</p>
+
+                <div class="project mt">
+                    <div class="text">
+                        <h4><a href="https://ieeexplore.ieee.org/document/8717387">Discovering The Applicability of Classification Algorithms With Arabic Poetry</a></h4>
+                         تم نشره في مؤتمر JEEIT وهو واحد من آكبر المؤتمرات الإقليمية التي تقام مرة كل سنتين٫ نسبه القبول فيه كانت ٥٠٪ وشاركت فيه كناشر أول وانا السنة الجامعية الثالثة
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="margin-top: 4rem">
+                <h2>المسابقات والجوائز :</h2>
+                <p>هذه قائمة بالمسابقات والجوائز التي اشتركت أو حلصت عليها</p>
+
+                <div class="project mt">
+                    <div class="text">
+                        <h4><a href="https://media-exp1.licdn.com/dms/image/C4E2DAQHIo1TkeAHhGQ/profile-treasury-image-shrink_1280_1280/0?e=1594760400&v=beta&t=kQ4vM03W4UAK-qfKKOqu-WrbDSf7x3ZppUf1Ay-4F30">المركز الأول في مسابقة Innovate2Start</a></h4>
+                        من أصل ٢٠ فريق تقريبًا٫ متعلقة بريادة الأعمال والبرمجة٫ ١٥٠٠ دينار جوائز
+                    </div>
+                </div>
+                <div class="project mt">
+                    <div class="text">
+                        <h4><a href="https://media-exp1.licdn.com/dms/image/C4E2DAQGpgPXsd-9Z_g/profile-treasury-image-shrink_1280_1280/0?e=1594760400&v=beta&t=heFpPGiI5eneync98Ougwtn0keTUYK6WoMTFxlIEf2c">                        فائز في GitHub Local Hack Day</a></h4>
+                        المسابقة تتعلق بالبرمجة لمدة وبناء أو إكمال منتج من الصفر لمدة ١٢ ساعة متواصلة
+                    </div>
+                </div>
+                <div class="project mt">
+                    <div class="text">
+                        <h4><a href="https://media-exp1.licdn.com/dms/image/C4E2DAQGpgPXsd-9Z_g/profile-treasury-image-shrink_1280_1280/0?e=1594760400&v=beta&t=heFpPGiI5eneync98Ougwtn0keTUYK6WoMTFxlIEf2c">مسابقة معرض مشاريع التخرج</a></h4>
+                        حصلت على المركز السادس من اصل ٥٦ فريق مشارك٫ لم أكن سأتخرج فعليا وقتها لكنني شاركت :)
+                    </div>
+                </div>
+                
+            </div>
+
 <!-- <div class="posts">	
   {% for post in site.posts %}	
     <article class="post">	
