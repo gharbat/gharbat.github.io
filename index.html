@@ -161,12 +161,3 @@ layout: default
 
 </div>
 
-<div class="posts" style="margin-top:4rem;">
-         <h2>االتدوينات :</h2>
-                <p>هذه تدوينات ومقالات كتبتها سابقًا</p>
-  {% for post in site.posts %}
-    <article class="post">
-      <h4><a  style="color:black;" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    </article>
-  {% endfor %}
-</div>
